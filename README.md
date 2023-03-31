@@ -6,9 +6,7 @@ Also adding and editing new and old records.
 
 Some screenshots:
 -----------------
-![1](https://user-images.githubusercontent.com/11380960/229143899-600ff631-fcec-4545-9630-c712618ee34d.png)
-
-![2](https://user-images.githubusercontent.com/11380960/229143962-d22827ce-7da4-42f7-86b8-b130eaf2ccd6.png)
+![1](https://user-images.githubusercontent.com/11380960/229143899-600ff631-fcec-4545-9630-c712618ee34d.png) ![2](https://user-images.githubusercontent.com/11380960/229143962-d22827ce-7da4-42f7-86b8-b130eaf2ccd6.png) 
 
 A small video:
 -----------------
