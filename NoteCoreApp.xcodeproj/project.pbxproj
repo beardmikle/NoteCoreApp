@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F878790529C7A2E2006C1CE9 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878790429C7A2E2006C1CE9 /* NoteCell.swift */; };
+		F878790729C7A30B006C1CE9 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878790629C7A30B006C1CE9 /* NoteTableView.swift */; };
+		F8AA3E6C29CDF8AF006079D7 /* NoteCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8AA3E6A29CDF8AF006079D7 /* NoteCoreData.xcdatamodeld */; };
+		F8AA3E6E29CDFA58006079D7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA3E6D29CDFA58006079D7 /* Note.swift */; };
 		F8E4D57F29C621C50039AB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4D57E29C621C50039AB71 /* AppDelegate.swift */; };
 		F8E4D58129C621C50039AB71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4D58029C621C50039AB71 /* SceneDelegate.swift */; };
-		F8E4D58329C621C50039AB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4D58229C621C50039AB71 /* ViewController.swift */; };
+		F8E4D58329C621C50039AB71 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4D58229C621C50039AB71 /* NoteDetailVC.swift */; };
 		F8E4D58629C621C50039AB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E4D58429C621C50039AB71 /* Main.storyboard */; };
 		F8E4D58829C621C60039AB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E4D58729C621C60039AB71 /* Assets.xcassets */; };
 		F8E4D58B29C621C60039AB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E4D58929C621C60039AB71 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F878790429C7A2E2006C1CE9 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		F878790629C7A30B006C1CE9 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
+		F8AA3E6B29CDF8AF006079D7 /* NoteCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteCoreData.xcdatamodel; sourceTree = "<group>"; };
+		F8AA3E6D29CDFA58006079D7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		F8E4D57B29C621C50039AB71 /* NoteCoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteCoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E4D57E29C621C50039AB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8E4D58029C621C50039AB71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8E4D58229C621C50039AB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8E4D58229C621C50039AB71 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
 		F8E4D58529C621C50039AB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8E4D58729C621C60039AB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E4D58A29C621C60039AB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,12 +64,16 @@
 		F8E4D57D29C621C50039AB71 /* NoteCoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				F878790429C7A2E2006C1CE9 /* NoteCell.swift */,
 				F8E4D57E29C621C50039AB71 /* AppDelegate.swift */,
 				F8E4D58029C621C50039AB71 /* SceneDelegate.swift */,
-				F8E4D58229C621C50039AB71 /* ViewController.swift */,
+				F8E4D58229C621C50039AB71 /* NoteDetailVC.swift */,
+				F878790629C7A30B006C1CE9 /* NoteTableView.swift */,
 				F8E4D58429C621C50039AB71 /* Main.storyboard */,
+				F8AA3E6D29CDFA58006079D7 /* Note.swift */,
 				F8E4D58729C621C60039AB71 /* Assets.xcassets */,
 				F8E4D58929C621C60039AB71 /* LaunchScreen.storyboard */,
+				F8AA3E6A29CDF8AF006079D7 /* NoteCoreData.xcdatamodeld */,
 				F8E4D58C29C621C60039AB71 /* Info.plist */,
 			);
 			path = NoteCoreApp;
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E4D58329C621C50039AB71 /* ViewController.swift in Sources */,
+				F8E4D58329C621C50039AB71 /* NoteDetailVC.swift in Sources */,
 				F8E4D57F29C621C50039AB71 /* AppDelegate.swift in Sources */,
+				F8AA3E6E29CDFA58006079D7 /* Note.swift in Sources */,
 				F8E4D58129C621C50039AB71 /* SceneDelegate.swift in Sources */,
+				F878790729C7A30B006C1CE9 /* NoteTableView.swift in Sources */,
+				F8AA3E6C29CDF8AF006079D7 /* NoteCoreData.xcdatamodeld in Sources */,
+				F878790529C7A2E2006C1CE9 /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +308,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +335,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +372,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8AA3E6A29CDF8AF006079D7 /* NoteCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8AA3E6B29CDF8AF006079D7 /* NoteCoreData.xcdatamodel */,
+			);
+			currentVersion = F8AA3E6B29CDF8AF006079D7 /* NoteCoreData.xcdatamodel */;
+			path = NoteCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F8E4D57329C621C50039AB71 /* Project object */;
 }
